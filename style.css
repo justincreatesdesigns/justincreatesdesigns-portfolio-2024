@@ -1,0 +1,426 @@
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+html,
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a video {
+  display: block;
+  width: 100vw;
+  position: relative;
+  height: 100vh;
+  top: 200px;
+  object-fit: cover;
+}
+
+/* font size */
+
+p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+.custom-p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* spacing */
+
+.p-brand {
+  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.custom-brand {
+  font-size: 32px;
+  height: 200px;
+  max-height: 100%;
+  align-content: end;
+}
+
+.offcanvas-header,
+.brand-spacer {
+  padding: 50px;
+}
+
+.brand-spacer-20 {
+  padding: 20px 0;
+}
+
+/* colors*/
+
+.bg-brand-green {
+  background-color: #062d28;
+  color: white;
+}
+
+.bg-brand-white,
+.bg-brand-white ul a {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* nav */
+
+.navbar-toggler:focus {
+  /*Below line will remove the border from the icon
+    I have used bootstrap icon here */
+  /* This will only remove the shadow effect */
+  /* Border is still there */
+  /* if you don't want any border then set the property equals to zero */
+  border: 0;
+  box-shadow: none;
+
+  /* This will remove the rounded corner(radious-border)
+    and give square border */
+  /* border-radius: 0 !important; */
+}
+
+.navbar-toggler {
+  /* This will completely remove border from the icon */
+  /* If you need border for the icon then comment this code */
+  border: 0;
+
+  /* if you want to check the border please uncomment below code */
+  /* border-color: yellow !important; */
+}
+.navbar-toggler-icon {
+  background-image: url(img/menu.png);
+  background-size: contain;
+}
+
+.nav-padding {
+  padding: 30px 50px;
+}
+
+.offcanvas-header {
+  justify-content: right;
+}
+
+.offcanvas-header button {
+  height: 72px;
+}
+
+.btn-close.m-0 {
+  opacity: 1;
+}
+
+.btn-close {
+  background-image: url(img/cancel.png);
+  background-size: contain;
+}
+
+.navbar-nav a:hover {
+  color: #ffb800;
+}
+
+/* swiper */
+
+.swiper-wrapper {
+  height: 100vh;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #ffffff;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+}
+.swiper-slide a {
+  position: absolute;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  top: 200px;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  padding: 0 50px;
+  color: #ffffff;
+}
+
+.swiper-pagination {
+  text-align: right;
+  padding: 50px;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.carousel-label {
+  text-align: left;
+  padding: 50px;
+  color: #ffffff;
+  position: relative;
+}
+
+.carousel-label h3 {
+  font-weight: 600;
+}
+
+.swiper-slide a:hover,
+.carousel-label h3:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/* intro */
+
+.intro {
+  display: flex;
+}
+
+.intro h2 {
+  font-weight: medium;
+}
+
+.intro div {
+  align-content: center;
+}
+
+/* link */
+
+.view-all-link {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.view-all-link a:hover {
+  color: #ffb800;
+}
+
+/* works */
+
+.works {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.works h2 {
+  padding-bottom: 50px;
+}
+
+.works-content .work-hover img:hover {
+  filter: brightness(70%);
+  padding: 0px 10px;
+  transition: 0.3s;
+}
+
+.works-content img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.works-content-details {
+  padding: 20px 0;
+}
+
+.works-content-details h4 {
+  font-size: 30px;
+}
+
+.works-content-details p {
+  font-size: 16px;
+}
+
+.works-content-grid {
+  padding: 20px;
+}
+
+/* pill */
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h4.pill {
+  background: #000000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* margin: 0px 10px; */
+  margin-right: 20px;
+  color: #ffffff;
+  padding: 10px 30px;
+}
+
+h4.pill-radius {
+  background: #000000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  /* margin: 0px 10px; */
+  margin-right: 20px;
+  color: #ffffff;
+  padding: 10px 30px;
+}
+
+/* blogs */
+
+.blogs {
+  padding: 50px 50px;
+}
+
+/* footer */
+
+.social-links {
+  text-align: right;
+  color: #ffffff;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .navbar-brand img {
+    width: 60px;
+  }
+  .nav-padding {
+    padding: 20px;
+  }
+
+  /* .swiper-wrapper {
+    height: 730px;
+  } */
+
+  .swiper-pagination {
+    left: 20px;
+    bottom: 170px;
+    text-align: left; /* Adjust text alignment */
+    padding: 0; /* Remove padding */
+    width: fit-content;
+  }
+  /* .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  } */
+
+  .carousel-label {
+    padding: 20px;
+  }
+
+  .intro,
+  .works {
+    padding: 40px;
+  }
+
+  .works-content img {
+    object-fit: cover;
+    width: 100%;
+    height: 260px;
+  }
+
+  .pill-col {
+    padding-top: 10px;
+  }
+
+  a video,
+  .swiper-slide img {
+    width: 100vw;
+    height: 100vh;
+    top: 240px;
+  }
+
+  .social-links {
+    text-align: left;
+    padding-top: 40px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  a video,
+  .swiper-slide img {
+    width: 100vw;
+    height: 100vh;
+    top: 220px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* .swiper-wrapper {
+    height: 730px;
+  } */
+  a video {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Your CSS rules for extra large devices */
+}

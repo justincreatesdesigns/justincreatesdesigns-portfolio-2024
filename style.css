@@ -21,7 +21,7 @@ a video {
   width: 100vw;
   position: relative;
   height: 100vh;
-  top: 200px;
+  top: 220px;
   object-fit: cover;
 }
 
@@ -182,10 +182,10 @@ h3 {
 
 .swiper-slide img {
   display: block;
-  width: 100%;
+  width: 100vw;
   position: relative;
-  height: 100%;
-  top: 200px;
+  height: 100vh;
+  top: 220px;
   object-fit: cover;
 }
 
@@ -399,7 +399,7 @@ h4.pill-radius {
   .swiper-slide img {
     width: 100vw;
     height: 100vh;
-    top: 240px;
+    top: 220px;
   }
 
   .social-links {

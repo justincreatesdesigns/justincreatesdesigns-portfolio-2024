@@ -366,7 +366,7 @@ h4.pill-radius {
 
   .swiper-pagination {
     left: 20px;
-    bottom: 170px;
+    bottom: 220px;
     text-align: left; /* Adjust text alignment */
     padding: 0; /* Remove padding */
     width: fit-content;
@@ -399,7 +399,7 @@ h4.pill-radius {
   .swiper-slide img {
     width: 100vw;
     height: 100vh;
-    top: 220px;
+    top: 240px;
   }
 
   .social-links {
@@ -414,7 +414,7 @@ h4.pill-radius {
   .swiper-slide img {
     width: 100vw;
     height: 100vh;
-    top: 220px;
+    top: 240px;
   }
 }
 

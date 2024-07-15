@@ -248,7 +248,8 @@ h3 {
 
 /* works */
 
-.works {
+.works,
+.all-works {
   padding-top: 50px;
   padding-left: 100px;
   padding-right: 100px;
@@ -285,6 +286,13 @@ h3 {
   padding: 20px;
 }
 
+/* all-works */
+
+.all-works {
+  margin-top: 142px;
+  padding-bottom: 150px;
+}
+
 /* pill */
 
 .pill-row {
@@ -305,6 +313,7 @@ h4.pill {
   margin-right: 20px;
   color: #ffffff;
   padding: 10px 30px;
+  margin-bottom: 10px;
 }
 
 h4.pill-radius {

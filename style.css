@@ -287,13 +287,6 @@ h3 {
   padding: 20px;
 }
 
-/* all-works */
-
-.all-works {
-  margin-top: 142px;
-  padding-bottom: 150px;
-}
-
 /* pill */
 
 .pill-row {
@@ -349,6 +342,25 @@ h4.pill-radius {
 .social-links {
   text-align: right;
   color: #ffffff;
+}
+
+/* all-works */
+
+.all-works .navbar h4 {
+  font-weight: 600;
+}
+
+.all-works {
+  margin-top: 142px;
+  padding-bottom: 150px;
+}
+
+.all-works-links {
+  display: flex;
+}
+
+.all-works-links a {
+  padding: 20px;
 }
 
 /* Small devices (landscape phones, 576px and up) */

@@ -91,6 +91,14 @@ h3 {
   padding: 20px 0;
 }
 
+.all-spacer {
+  margin-top: 142px;
+  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 /* colors*/
 
 .bg-brand-green {
@@ -249,8 +257,7 @@ h3 {
 
 /* works */
 
-.works,
-.all-works {
+.works {
   padding-top: 50px;
   padding-left: 100px;
   padding-right: 100px;
@@ -383,6 +390,16 @@ a.nav-link {
   padding: 20px;
 }
 
+/* all blogs */
+/* 
+.all-blogs {
+  margin-top: 142px;
+  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+} */
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   h1 {
@@ -407,7 +424,7 @@ a.nav-link {
   } */
 
   .swiper-pagination {
-    left: 50px;
+    left: 40px;
     bottom: 80px;
     text-align: left; /* Adjust text alignment */
     padding: 0; /* Remove padding */
@@ -420,6 +437,7 @@ a.nav-link {
   }
 
   .carousel-label {
+    padding-left: 40px;
     padding-bottom: 40px;
   }
 

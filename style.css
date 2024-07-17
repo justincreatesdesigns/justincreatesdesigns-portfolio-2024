@@ -244,6 +244,7 @@ h3 {
 
 .view-all-link a:hover {
   color: #ffb800;
+  transition: 0.3s;
 }
 
 /* works */
@@ -255,9 +256,9 @@ h3 {
   padding-right: 100px;
 }
 
-.works h2 {
+/* .works h2 {
   padding-bottom: 50px;
-}
+} */
 
 .works-content .work-hover img:hover {
   filter: brightness(70%);
@@ -277,6 +278,7 @@ h3 {
 
 .works-content-details h4 {
   font-size: 30px;
+  font-weight: 600;
 }
 
 .works-content-details p {
@@ -284,7 +286,7 @@ h3 {
 }
 
 .works-content-grid {
-  padding: 12px;
+  padding-top: 50px;
 }
 
 /* pill */
@@ -333,6 +335,10 @@ h4.pill-radius {
   padding: 50px 50px;
 }
 
+/* .blogs h2 {
+  padding-bottom: 50px;
+} */
+
 .blogs img {
   height: 300px;
 }
@@ -344,10 +350,24 @@ h4.pill-radius {
   color: #ffffff;
 }
 
+.social-links a:hover {
+  color: #ffb800;
+  transition: 0.3s;
+}
+
 /* all-works */
 
+.all-works h2 {
+  padding: 12px 0;
+}
+
 .all-works .navbar h4 {
-  font-weight: 600;
+  font-weight: 500;
+}
+
+a.nav-link.active,
+a.nav-link {
+  padding-right: 20px;
 }
 
 .all-works {

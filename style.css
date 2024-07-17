@@ -408,7 +408,7 @@ a.nav-link {
 
   .swiper-pagination {
     left: 40px;
-    bottom: 80px;
+    bottom: 120px;
     text-align: left; /* Adjust text alignment */
     padding: 0; /* Remove padding */
     width: fit-content;

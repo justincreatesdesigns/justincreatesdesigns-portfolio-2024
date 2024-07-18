@@ -99,6 +99,10 @@ h3 {
   padding-right: 100px;
 }
 
+.top-spacer {
+  margin-top: 142px;
+}
+
 /* colors*/
 
 .bg-brand-green {
@@ -258,9 +262,7 @@ h3 {
 /* works */
 
 .works {
-  padding-top: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 50px 100px;
 }
 
 /* .works h2 {
@@ -400,6 +402,21 @@ a.nav-link {
   padding-right: 100px;
 } */
 
+/* main article */
+
+.article-img {
+  width: 100vw;
+}
+
+.main-article {
+  padding: 50px 100px;
+  padding-bottom: 150px;
+}
+
+.main-article p {
+  padding: 20px 0;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   h1 {
@@ -419,6 +436,9 @@ a.nav-link {
     padding: 20px;
   }
 
+  .top-spacer {
+    margin-top: 110px;
+  }
   /* .swiper-wrapper {
     height: 730px;
   } */
@@ -451,7 +471,8 @@ a.nav-link {
 
   .intro,
   .works,
-  .all-works {
+  .all-works,
+  .main-article {
     padding: 40px;
   }
 

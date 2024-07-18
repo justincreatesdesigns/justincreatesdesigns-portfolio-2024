@@ -269,7 +269,8 @@ h3 {
   padding-bottom: 50px;
 } */
 
-.works-content .work-hover img:hover {
+.works-content .work-hover img:hover,
+.works-video-grid:hover {
   filter: brightness(70%);
   padding: 0px 10px;
   transition: 0.3s;
@@ -296,6 +297,12 @@ h3 {
 
 .works-content-grid {
   padding-top: 50px;
+}
+
+.works-video-grid {
+  width: 100%;
+  height: 400px;
+  top: 0px;
 }
 
 /* pill */

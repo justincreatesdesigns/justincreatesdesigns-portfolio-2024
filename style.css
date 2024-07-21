@@ -305,6 +305,10 @@ h3 {
   top: 0px;
 }
 
+.video-in-works {
+  width: 100vw;
+}
+
 /* pill */
 
 .pill-row {

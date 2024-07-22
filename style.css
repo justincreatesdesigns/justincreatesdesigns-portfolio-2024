@@ -439,6 +439,10 @@ a.nav-link {
   padding-bottom: 150px;
 }
 
+.main-article p {
+  width: 80%;
+}
+
 .main-article p,
 ol {
   padding-top: 20px;
@@ -455,6 +459,10 @@ ol {
   padding: 20px;
   font-weight: 500;
   border: 3px solid black;
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-weight: 500;
 }
 
 .in-works-link:hover {
@@ -547,6 +555,14 @@ ol {
   .social-links {
     text-align: left;
     padding-top: 40px;
+  }
+
+  .main-article p {
+    width: 100%;
+  }
+
+  .article-img img {
+    width: 100%;
   }
 }
 

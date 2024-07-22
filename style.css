@@ -27,7 +27,8 @@ a video {
 
 /* font size */
 
-p {
+p,
+li {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -89,6 +90,10 @@ h3 {
 
 .brand-spacer-20 {
   padding: 20px 0;
+}
+
+.brand-spacer-50 {
+  padding: 50px 0;
 }
 
 .all-spacer {
@@ -415,8 +420,13 @@ a.nav-link {
 
 /* main article */
 
-.article-img {
-  width: 100vw;
+.img-centre {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.img-centre img {
+  width: 100%;
 }
 
 .main-article {
@@ -424,8 +434,27 @@ a.nav-link {
   padding-bottom: 150px;
 }
 
-.main-article p {
-  padding: 20px 0;
+.main-article p,
+ol {
+  padding-top: 20px;
+}
+
+.creative-design-process img {
+  height: 400px;
+}
+
+.in-works-link {
+  text-align: center;
+  font-size: 26px;
+  margin: 30px 0;
+  padding: 20px;
+  font-weight: 500;
+  border: 3px solid black;
+}
+
+.in-works-link:hover {
+  background-color: #ffb800;
+  transition: 0.3s;
 }
 
 /* Small devices (landscape phones, 576px and up) */

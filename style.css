@@ -528,6 +528,17 @@ ol {
   cursor: pointer;
 }
 
+.back-to-top-link {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.back-to-top-link:hover {
+  color: #ffb800;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   h1 {

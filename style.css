@@ -509,9 +509,9 @@ ol,
   .top-spacer {
     margin-top: 110px;
   }
-  /* .swiper-wrapper {
-    height: 730px;
-  } */
+  .swiper-wrapper {
+    height: 80vh;
+  }
 
   .swiper-pagination {
     left: 40px;

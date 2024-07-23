@@ -9,6 +9,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -539,6 +540,22 @@ ol {
   cursor: pointer;
 }
 
+/* works nav link */
+
+#text-right {
+  text-align: right;
+}
+
+.nav-link a {
+  font-size: 20px;
+}
+
+.nav-link a:hover {
+  color: #ffb800;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   h1 {
@@ -628,6 +645,10 @@ ol {
 
   .main-article p {
     width: 100%;
+  }
+
+  #text-right {
+    text-align: left;
   }
 }
 

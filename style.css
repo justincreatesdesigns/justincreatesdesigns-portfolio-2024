@@ -285,10 +285,15 @@ h3 {
   transition: 0.3s;
 }
 
-.works-content img {
+.works-content img,
+.works-img-grid img {
   object-fit: cover;
   width: 100%;
   height: 400px;
+}
+
+.works-img-grid img {
+  padding-top: 20px;
 }
 
 .works-content-details {
@@ -327,6 +332,7 @@ h3 {
 .pill-row {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 20px;
 }
 
 h4.pill {

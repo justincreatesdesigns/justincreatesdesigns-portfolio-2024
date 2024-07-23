@@ -528,12 +528,12 @@ ol {
   cursor: pointer;
 }
 
-.back-to-top-link {
+.updown-link {
   text-decoration: underline;
   font-weight: 400;
 }
 
-.back-to-top-link:hover {
+.updown-link:hover {
   color: #ffb800;
   transition: 0.3s;
   cursor: pointer;

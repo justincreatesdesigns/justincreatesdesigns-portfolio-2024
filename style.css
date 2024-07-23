@@ -488,7 +488,8 @@ a.nav-link {
   width: 80%;
 }
 
-.main-article h2 {
+.main-article h2,
+.main-article h3 {
   padding-top: 20px;
 }
 

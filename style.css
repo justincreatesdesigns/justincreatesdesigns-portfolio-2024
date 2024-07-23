@@ -329,13 +329,14 @@ h3 {
 
 /* pill */
 
-.pill-row {
+.pill-row,
+.pill-row-white {
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px;
 }
 
-h4.pill {
+.pill {
   background: #000000;
   text-align: center;
   font-size: 12px;
@@ -351,7 +352,7 @@ h4.pill {
   margin-bottom: 10px;
 }
 
-h4.pill-radius {
+.pill-radius {
   background: #000000;
   text-align: center;
   font-size: 12px;
@@ -364,6 +365,39 @@ h4.pill-radius {
   /* margin: 0px 10px; */
   margin-right: 20px;
   color: #ffffff;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+}
+
+.pill-white {
+  background: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* margin: 0px 10px; */
+  margin-right: 20px;
+  color: #000000;
+  padding: 10px 30px;
+  margin-bottom: 10px;
+}
+
+.pill-radius-white {
+  background: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  /* margin: 0px 10px; */
+  margin-right: 20px;
+  color: #000000;
   padding: 10px 30px;
   margin-bottom: 10px;
 }

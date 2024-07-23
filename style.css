@@ -318,9 +318,9 @@ h3 {
   width: 100vw;
 }
 
-.works-content div {
+/* .works-content div {
   padding-top: 20px;
-}
+} */
 
 /* pill */
 
@@ -437,7 +437,8 @@ a.nav-link {
   padding: 30px 0;
 }
 
-.article-img img {
+.article-img img,
+.blog-img {
   width: 100%;
 }
 
@@ -450,10 +451,14 @@ a.nav-link {
   width: 80%;
 }
 
-.main-article p,
-ol,
 .main-article h2 {
   padding-top: 20px;
+}
+
+.main-article p,
+ol {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .main-article-p-fw {
@@ -480,6 +485,7 @@ ol,
 .in-works-link:hover {
   background-color: #ffb800;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 /* Small devices (landscape phones, 576px and up) */

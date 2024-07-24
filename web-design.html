@@ -30,16 +30,13 @@
             <div class="container-fluid p-0">
               <ul class="navbar-nav flex-lg-row">
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="works.html"
+                  <a class="nav-link" aria-current="page" href="works.html"
                     ><h4>All</h4></a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link active"
+                    class="nav-link"
                     aria-current="page"
                     href="graphic-design.html"
                     ><h4>Graphic Design</h4></a
@@ -62,7 +59,10 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="web-design.html"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="web-design.html"
                     ><h4>Web Design</h4></a
                   >
                 </li>
@@ -91,83 +91,29 @@
               </ul>
             </div>
           </nav>
-          <!-- <div class="row">
-            <div class="all-works-links p-0">
-              <a href="#" class="active"><h4>All</h4></a>
-              <a href="#"><h4>Graphic Design</h4></a>
-              <a href="#"><h4>Brand Identity</h4></a>
-              <a href="#"><h4>Motion Graphics</h4></a>
-              <a href="#"><h4>Web Design</h4></a>
-            </div>
-          </div> -->
+
           <div class="row works-content">
             <div class="work-hover col-lg-6 works-content-grid">
-              <a href="works/sgf.html" target="blank">
+              <a href="https://groundedpractice.netlify.app" target="blank">
                 <img
-                  src="img/sgf_2023_post1_centre.png"
-                  alt="graphic design singapore garden festival"
+                  src="img/groundedpracticewebsite.png"
+                  alt="groundedpractice website garrysmod art"
                 />
                 <div class="works-content-details">
-                  <h4>Singapore Garden Festival</h4>
-                  <p>Social Media Post for Singapore Garden Festival.</p>
-                </div>
-                <div class="pill-row">
-                  <div class="pill-col">
-                    <h4 class="pill">School Work</h4>
-                  </div>
-                  <div class="pill-col">
-                    <h4 class="pill-radius">Social Media Post</h4>
-                  </div>
-                  <div class="pill-col">
-                    <h4 class="pill-radius">Graphic Design</h4>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="work-hover col-lg-6 works-content-grid">
-              <a href="works/scoopedm.html" target="blank">
-                <img
-                  src="img/edm_scoop.png"
-                  alt="spotify motion graphic design"
-                />
-                <div class="works-content-details">
-                  <h4>Scoop EDM</h4>
+                  <h4>Grounded Practice: Garry's Mod Art</h4>
                   <p>
-                    I thought wholefoods so why not make it brownish and papery.
+                    A website for all my art that I created with Garry's Mod.
                   </p>
-                </div>
-                <div class="pill-row">
-                  <div class="pill-col">
-                    <h4 class="pill">School Work</h4>
-                  </div>
-                  <div class="pill-col">
-                    <h4 class="pill-radius">Electronic Direct Mail</h4>
-                  </div>
-                  <div class="pill-col">
-                    <h4 class="pill-radius">Graphic Design</h4>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="work-hover col-lg-6 works-content-grid">
-              <a href="works/ict_posters.html" target="blank">
-                <img
-                  src="img/ict_posters.png"
-                  alt="spotify motion graphic design"
-                />
-                <div class="works-content-details">
-                  <h4>ICT Posters</h4>
-                  <p>Posters I created to communicate with students at work.</p>
                 </div>
                 <div class="pill-row">
                   <div class="pill-col">
                     <h4 class="pill">Personal Project</h4>
                   </div>
                   <div class="pill-col">
-                    <h4 class="pill-radius">Poster</h4>
+                    <h4 class="pill-radius">Web Design</h4>
                   </div>
                   <div class="pill-col">
-                    <h4 class="pill-radius">Graphic Design</h4>
+                    <h4 class="pill-radius">Garry's Mod</h4>
                   </div>
                 </div>
               </a>
@@ -190,6 +136,26 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      // autoplay: {
+      //   delay: 2500,
+      //   disableOnInteraction: false,
+      // },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
   <script src="script.js"></script>
 </html>

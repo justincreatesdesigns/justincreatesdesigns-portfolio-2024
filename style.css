@@ -1,8 +1,3 @@
-/* * {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-} */
 html,
 body {
   min-height: 100vh;
@@ -650,6 +645,10 @@ ol {
 
   #text-right {
     text-align: left;
+  }
+
+  .padding-left-right {
+    padding: 0px;
   }
 }
 

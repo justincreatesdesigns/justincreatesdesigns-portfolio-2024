@@ -113,6 +113,10 @@ h3 {
   margin-top: 142px;
 }
 
+.padding-left-right {
+  padding: 0 50px;
+}
+
 /* colors*/
 
 .bg-brand-green {

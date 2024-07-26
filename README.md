@@ -10,7 +10,7 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate on more projects
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about my services
-- 📫 How to reach me: justinjaylargadocabonce@gmail.com
+- 📫 How to reach me: justincreatesdesignsinboxis@gmail.com
 - 😄 Pronouns: ...
 - ⚡ Fun fact: I love nintendo
 -->

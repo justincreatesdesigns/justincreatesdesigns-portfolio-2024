@@ -310,7 +310,6 @@ h3 {
 
 .works-content-details {
   padding: 20px 0;
-  height: 15vh;
 }
 
 .works-content-details h4 {
@@ -347,7 +346,6 @@ h3 {
 .pill-row-white {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 20px;
 }
 
 .pill {

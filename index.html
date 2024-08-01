@@ -14,6 +14,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -22,12 +26,12 @@
 
     <main>
       <!-- Swiper -->
-      <section>
+      <section class="animate__animated animate__fadeInDown">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <a href="works/spotify.html">
-                <video playsinline autoplay muted loop>
+                <video play inline autoplay muted loop>
                   <source src="img/works-spotifyvideo.mp4" type="video/mp4" />
                 </video>
                 <div class="carousel-label">
@@ -70,10 +74,12 @@
 
       <!-- Intro -->
       <section>
-        <div class="row home-intro intro brand-spacer bg-brand-green">
-          <div class="col-lg-8 col-md-12 col-sm-12">
-            <h1>Envisioning Narratives</h1>
-            <p>Turning designs into meaningful stories.</p>
+        <div class="row home-intro intro bg-brand-green">
+          <div class="col-12 p-0">
+            <h1>I'm justincreatesdesigns</h1>
+            <h1>A graphic designer</h1>
+            <h1>That wants to tell</h1>
+            <h1>Meaningful stories.</h1>
           </div>
           <!-- <div class="col-lg-6 col-md-12 col-sm-12">
             <p>Turning designs into meaningful stories.</p>
@@ -356,15 +362,7 @@
                 </div>
               </a>
             </div>
-            <!-- <div class="work-hover col-lg-4 works-content-grid">
-              <a href="#">
-                <img src="img/banner1.png" alt="" />
-                <div class="works-content-details">
-                  <h4>Market On the Lawn</h4>
-                  <p>A event by AIR CCC.</p>
-                </div>
-              </a>
-            </div> -->
+
             <div class="work-hover col-lg-4 works-content-grid">
               <a href="#">
                 <img src="img/banner1.png" alt="" />
@@ -407,11 +405,11 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
-      loop: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
+      // loop: true,
+      // autoplay: {
+      //   delay: 5000,
+      //   disableOnInteraction: false,
+      // },
       pagination: {
         el: ".swiper-pagination",
         type: "fraction",

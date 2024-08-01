@@ -342,6 +342,8 @@ h3 {
 .works-content-grid,
 .works-content-grid-home {
   padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 0px;
 }
 
 .works-content-grid img {

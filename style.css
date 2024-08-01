@@ -677,12 +677,7 @@ ol {
   a video,
   .swiper-slide img {
     width: 100vw;
-    height: 89vh;
+    height: 91vh;
     top: 230px;
   }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  /* Your CSS rules for extra large devices */
 }

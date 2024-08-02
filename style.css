@@ -6,9 +6,9 @@ html,
 body {
   min-height: 100vh;
   max-width: 100%;
-  overflow-x: hidden;
   margin: 0 auto;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
@@ -128,6 +128,7 @@ h3 {
 .bg-brand-green {
   background-color: #062d28;
   color: white;
+  padding: 0px;
 }
 
 .bg-brand-white,
@@ -192,12 +193,25 @@ h3 {
 
 /* swiper */
 
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+header {
+  z-index: -1;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.swiper {
+  transform: translateZ(-10px) scale(2.03);
+}
+
 .swiper-wrapper {
   height: 100vh;
-}
-.swiper {
-  width: 100%;
-  height: 100%;
 }
 
 .swiper-slide {
@@ -223,13 +237,14 @@ h3 {
 
 .swiper-button-next,
 .swiper-button-prev {
-  padding: 0 50px;
+  margin: 0 50px;
   color: #ffffff;
 }
 
 .swiper-pagination {
   text-align: right;
   padding: 50px;
+  left: -14px;
   color: #ffffff;
   font-weight: bolder;
   font-size: 24px;
@@ -256,17 +271,25 @@ h3 {
 /* home intro */
 
 .home-intro h1 {
-  font-size: clamp(1rem, 6.5vw, 6rem);
+  font-size: clamp(1rem, 6.5vw, 5rem);
+}
+
+.home-intro h2 {
+  font-size: clamp(1rem, 6.5vw, 4rem);
+  font-weight: 400;
+  padding-top: 20px;
 }
 
 .home-intro {
   padding: 60px;
+  height: 100vh;
 }
 
 /* intro */
 
 .intro {
   display: flex;
+  padding: 50px;
 }
 
 .intro div {
@@ -315,7 +338,8 @@ h3 {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .works-content-home img,
@@ -369,6 +393,7 @@ h3 {
 .pill-row,
 .pill-row-white {
   display: flex;
+
   flex-wrap: wrap;
 }
 
@@ -604,7 +629,7 @@ ol {
 
   .swiper-pagination {
     left: 40px;
-    bottom: 80px;
+    bottom: 120px;
     text-align: left; /* Adjust text alignment */
     padding: 0; /* Remove padding */
     width: fit-content;
@@ -618,6 +643,7 @@ ol {
   .carousel-label {
     padding-left: 40px;
     padding-bottom: 40px;
+    bottom: 34px;
   }
 
   .carousel-label h4 {
@@ -673,14 +699,14 @@ ol {
   .padding-left-right {
     padding: 0px;
   }
-}
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  a video,
-  .swiper-slide img {
-    width: 100vw;
-    height: 91vh;
-    top: 230px;
+  .works-content-grid,
+  .works-content-grid-home {
+    padding-right: 0px;
+  }
+
+  .works-img-grid img {
+    padding-top: 20px;
+    padding-right: 0px;
   }
 }

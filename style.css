@@ -526,6 +526,10 @@ header {
   padding-bottom: 150px;
 }
 
+main-article img {
+  padding: 0px;
+}
+
 .main-article p {
   width: 80%;
 }

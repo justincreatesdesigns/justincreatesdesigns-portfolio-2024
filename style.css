@@ -201,9 +201,9 @@ h3 {
 }
 
 header {
-  z-index: -1;
+  /* z-index: -1; */
   transform-style: preserve-3d;
-  position: relative;
+  /* position: relative; */
 }
 
 .swiper {
@@ -290,6 +290,7 @@ header {
 .intro {
   display: flex;
   padding: 50px;
+  position: relative;
 }
 
 .intro div {

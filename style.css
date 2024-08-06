@@ -201,14 +201,13 @@ h3 {
 }
 
 header {
-  /* z-index: -1; */
+  z-index: 1;
   transform-style: preserve-3d;
-  /* position: relative; */
 }
-
+/* 
 .swiper {
   transform: translateZ(-10px) scale(2.03);
-}
+} */
 
 .swiper-wrapper {
   height: 100vh;
@@ -288,9 +287,10 @@ header {
 /* intro */
 
 .intro {
+  position: relative;
+  z-index: 2;
   display: flex;
   padding: 50px;
-  position: relative;
 }
 
 .intro div {

@@ -204,10 +204,10 @@ header {
   z-index: 1;
   transform-style: preserve-3d;
 }
-/* 
+
 .swiper {
   transform: translateZ(-10px) scale(2.03);
-} */
+}
 
 .swiper-wrapper {
   height: 100vh;

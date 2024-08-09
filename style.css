@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+:root {
+  --animate-duration: 2s;
+}
+
 a {
   text-decoration: none;
   color: #000000;

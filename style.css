@@ -191,19 +191,26 @@ h3 {
   color: #ffb800;
 }
 
-/* swiper */
+/* parallax */
 
-.swiper {
-  perspective: 1px;
-  transform-style: preserve-3d;
+.parallax-wrapper {
+  height: 100vh;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
+  perspective: 300px;
 }
 
-.swiper-swapper {
+.parallax-group {
   position: relative;
+  height: 100vh;
   transform-style: preserve-3d;
 }
+
+#parallax-swiper {
+  transform: translateZ(-300px) scale(2.03);
+}
+
+/* swiper */
 
 .swiper-wrapper {
   height: 100vh;
@@ -707,5 +714,9 @@ ol {
   .works-img-grid img {
     padding-top: 20px;
     padding-right: 0px;
+  }
+
+  .parallax-wrapper {
+    height: 140vh;
   }
 }

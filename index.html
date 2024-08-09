@@ -22,67 +22,74 @@
     <div class="nav-start"></div>
 
     <main>
-      <!-- Swiper -->
-      <div class="swiper mySwiper animate__animated animate__fadeInDown">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <a href="works/spotify.html">
-              <video play inline autoplay muted loop>
-                <source src="img/works-spotifyvideo.mp4" type="video/mp4" />
-              </video>
-              <div class="carousel-label">
-                <h3>Spotify Video</h3>
-                <p>
-                  One of my favourite projects that I did with my group in
-                  school.
-                </p>
-              </div></a
-            >
-          </div>
-          <div class="swiper-slide">
-            <a href="works/sgf.html">
-              <img src="img/sgf_2023_post1.png" alt="poster" />
-              <div class="carousel-label">
-                <h3>SGF 2023</h3>
-                <p>
-                  A group assingment to create social media posts for SGF 2024.
-                </p>
-              </div></a
-            >
-          </div>
-          <div class="swiper-slide">
-            <a href="works/ict_posters.html">
-              <img src="img/ict_posters.png" alt="poster" />
-              <div class="carousel-label">
-                <h3>ICT Posters</h3>
-                <p>Posters I created to communicate with students at work.</p>
-              </div></a
-            >
+      <div class="parallax-wrapper">
+        <!-- Swiper -->
+        <div class="parallax-group" id="parallax-swiper">
+          <div class="swiper mySwiper animate__animated animate__fadeInDown">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="works/spotify.html">
+                  <video play inline autoplay muted loop>
+                    <source src="img/works-spotifyvideo.mp4" type="video/mp4" />
+                  </video>
+                  <div class="carousel-label">
+                    <h3>Spotify Video</h3>
+                    <p>
+                      One of my favourite projects that I did with my group in
+                      school.
+                    </p>
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a href="works/sgf.html">
+                  <img src="img/sgf_2023_post1.png" alt="poster" />
+                  <div class="carousel-label">
+                    <h3>SGF 2023</h3>
+                    <p>
+                      A group assingment to create social media posts for SGF
+                      2024.
+                    </p>
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a href="works/ict_posters.html">
+                  <img src="img/ict_posters.png" alt="poster" />
+                  <div class="carousel-label">
+                    <h3>ICT Posters</h3>
+                    <p>
+                      Posters I created to communicate with students at work.
+                    </p>
+                  </div></a
+                >
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <div class="swiper-pagination"></div>
           </div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
 
-        <div class="swiper-pagination"></div>
-      </div>
-
-      <div class="wrapper">
-        <!-- Intro -->
-        <section>
-          <div class="row home-intro intro bg-brand-green">
-            <div class="col-12 p-0">
-              <h1>
-                Hey there, i'm Justin <br />
-                (aka justincreatesdesigns)
-              </h1>
-              <h2>
-                A graphic designer <br />
-                that wants to tell <br />
-                meaningful stories.
-              </h2>
+        <div class="parallax-group">
+          <!-- Intro -->
+          <section>
+            <div class="row home-intro intro bg-brand-green">
+              <div class="col-12 p-0">
+                <h1>
+                  Hey there, i'm Justin <br />
+                  (aka justincreatesdesigns)
+                </h1>
+                <h2>
+                  A graphic designer <br />
+                  that wants to tell <br />
+                  meaningful stories.
+                </h2>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
 
         <!-- Works -->
         <section>
@@ -313,11 +320,11 @@
   <script>
     var swiper = new Swiper(".mySwiper", {
       loop: true,
-      // speed: 1000,
-      // autoplay: {
-      //   delay: 4000,
-      //   disableOnInteraction: false,
-      // },
+      speed: 1000,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: ".swiper-pagination",
         type: "fraction",

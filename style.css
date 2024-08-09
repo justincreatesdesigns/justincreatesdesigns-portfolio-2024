@@ -237,7 +237,7 @@ h3 {
 } */
 
 .swiper-slide img {
-  display: block;
+  filter: brightness(0.9);
   width: 100vw;
   position: relative;
   height: 100vh;
@@ -691,8 +691,7 @@ ol {
     padding-top: 10px;
   }
 
-  a video,
-  .swiper-slide img {
+  a video {
     width: 100vw;
     height: 100vh;
     top: 230px;
@@ -725,7 +724,7 @@ ol {
     padding-right: 0px;
   }
 
-  .parallax-wrapper {
-    height: 140vh;
+  .parallax-group {
+    height: 90vh;
   }
 }

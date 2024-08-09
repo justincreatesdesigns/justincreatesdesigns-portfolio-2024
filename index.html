@@ -22,16 +22,20 @@
     <div class="nav-start"></div>
 
     <main>
-      <div class="parallax-wrapper">
+      <div class="parallax-wrapper animate__animated animate__fadeInDown">
         <!-- Swiper -->
         <div class="parallax-group" id="parallax-swiper">
-          <div class="swiper mySwiper animate__animated animate__fadeInDown">
+          <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <a href="works/spotify.html">
-                  <video play inline autoplay muted loop>
-                    <source src="img/works-spotifyvideo.mp4" type="video/mp4" />
-                  </video>
+                  <video
+                    playsinline
+                    autoplay
+                    muted
+                    loop
+                    src="img/works-spotifyvideo.mp4"
+                  ></video>
                   <div class="carousel-label">
                     <h3>Spotify Video</h3>
                     <p>
@@ -101,10 +105,10 @@
                 <a href="works/spotify.html" target="_blank">
                   <video
                     class="works-video-grid-home"
+                    loop
+                    muted
                     playsinline
                     autoplay
-                    muted
-                    loop
                     src="img/works-spotifyvideo.mp4"
                   ></video>
                   <div class="works-content-details">
@@ -320,11 +324,11 @@
   <script>
     var swiper = new Swiper(".mySwiper", {
       loop: true,
-      speed: 1000,
-      autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-      },
+      // speed: 2000,
+      // autoplay: {
+      //   delay: 4000,
+      //   disableOnInteraction: false,
+      // },
       pagination: {
         el: ".swiper-pagination",
         type: "fraction",
@@ -333,7 +337,6 @@
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-      allowTouchMove: "true",
     });
   </script>
 

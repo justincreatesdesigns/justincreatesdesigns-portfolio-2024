@@ -193,20 +193,16 @@ h3 {
 
 /* swiper */
 
-.wrapper {
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  perspective: 10px;
-}
-
-header {
-  z-index: 1;
-  transform-style: preserve-3d;
-}
-
 .swiper {
-  transform: translateZ(-10px) scale(2.03);
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.swiper-swapper {
+  position: relative;
+  transform-style: preserve-3d;
 }
 
 .swiper-wrapper {
@@ -287,7 +283,6 @@ header {
 /* intro */
 
 .intro {
-  position: relative;
   z-index: 2;
   display: flex;
   padding: 50px;

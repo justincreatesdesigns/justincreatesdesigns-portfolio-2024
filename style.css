@@ -123,6 +123,10 @@ h3 {
   padding: 0 50px;
 }
 
+.modal-backdrop {
+  z-index: -1;
+}
+
 /* colors*/
 
 .bg-brand-green {
@@ -522,6 +526,7 @@ h3 {
 .article-img img,
 .blog-img {
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .main-article {

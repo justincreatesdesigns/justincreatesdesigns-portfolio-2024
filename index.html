@@ -29,13 +29,9 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <a href="works/spotify.html">
-                  <video
-                    playsinline
-                    autoplay
-                    muted
-                    loop
-                    src="img/works-spotifyvideo.mp4"
-                  ></video>
+                  <video muted autoplay>
+                    <source src="img/works-spotifyvideo.mp4" type="video/mp4" />
+                  </video>
                   <div class="carousel-label">
                     <h3>Spotify Video</h3>
                     <p>
@@ -64,6 +60,18 @@
                     <h3>ICT Posters</h3>
                     <p>
                       Posters I created to communicate with students at work.
+                    </p>
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a href="works/scoopedm.html">
+                  <img src="img/edm_scoop.png" alt="poster" />
+                  <div class="carousel-label">
+                    <h3>Scoop EDM</h3>
+                    <p>
+                      I thought wholefoods so why not make it brownish and
+                      papery.
                     </p>
                   </div></a
                 >
@@ -324,9 +332,9 @@
   <script>
     var swiper = new Swiper(".mySwiper", {
       loop: true,
-      speed: 2000,
+      direction: "horizontal",
+      speed: 1000,
       autoplay: {
-        delay: 4000,
         disableOnInteraction: false,
       },
       pagination: {

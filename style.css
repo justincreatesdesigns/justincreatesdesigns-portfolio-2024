@@ -254,7 +254,7 @@ h4 {
 }
 
 .carousel-label h3 {
-  font-size: clamp(1.5rem, 8vw, 2.5rem);
+  font-size: clamp(1.5rem, 6vw, 2.5rem);
   font-weight: 600;
 }
 
@@ -268,10 +268,16 @@ h4 {
 .home-intro {
   height: 100vh;
   align-content: center;
+  padding: 50px;
 }
 
 .home-intro h1 {
-  font-size: clamp(1rem, 7.5vw, 5rem);
+  font-size: clamp(1rem, 7vw, 5rem);
+}
+
+.home-intro h3 {
+  font-weight: 400;
+  font-size: clamp(1rem, 7vw, 6rem);
 }
 
 .home-intro p {
@@ -749,14 +755,6 @@ ol {
 
   .home-intro h2 {
     width: 100%;
-  }
-
-  .home-intro h3 {
-    font-size: 24px;
-  }
-
-  .home-intro p {
-    font-size: 16px;
   }
 
   .main-article p {

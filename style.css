@@ -4,8 +4,6 @@
 
 html,
 body {
-  min-height: 100vh;
-  max-width: 100%;
   margin: 0 auto;
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -91,7 +89,7 @@ h4 {
 }
 
 .all-spacer {
-  margin-top: 142px;
+  margin-top: 154px;
   padding-bottom: 150px;
   padding-top: 50px;
   padding-left: 100px;
@@ -115,7 +113,6 @@ h4 {
 .bg-brand-green {
   background-color: #062d28;
   color: white;
-  padding: 0px;
 }
 
 .bg-brand-white,
@@ -149,9 +146,14 @@ h4 {
   /* border-color: yellow !important; */
 }
 
+.nav-item h1 {
+  font-weight: 500;
+}
+
 .custom-brand {
   height: 20vh;
   align-content: center;
+  font-size: clamp(1.5rem, 5vw, 2rem);
 }
 
 .navbar-toggler-icon {
@@ -485,6 +487,23 @@ h4 {
 }
 
 /* footer */
+
+footer {
+  padding: 50px;
+}
+
+footer img {
+  margin: 5px 0;
+}
+
+footer p {
+  font-size: clamp(16px, 3vw, 20px);
+}
+
+footer h4,
+.scoial-links h4 {
+  font-size: clamp(24px, 3vw, 30px);
+}
 
 .social-links {
   text-align: right;

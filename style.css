@@ -529,10 +529,14 @@ h3 {
   padding: 20px;
 }
 
+.main-article-img img {
+  width: 100%;
+}
+
 .article-img img,
 .blog-img {
   width: 100%;
-  padding-bottom: 20px;
+  padding: 20px 0px;
 }
 
 .main-article {
@@ -745,5 +749,9 @@ ol {
 
   .home-intro p {
     font-size: 16px;
+  }
+
+  .main-article p {
+    width: 100%;
   }
 }

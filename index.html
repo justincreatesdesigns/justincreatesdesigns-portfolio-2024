@@ -27,7 +27,7 @@
         <div class="parallax-group" id="parallax-swiper">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
+              <div class="swiper-slide adjust-text">
                 <a href="works/spotify.html">
                   <video muted autoplay>
                     <source src="img/works-spotifyvideo.mp4" type="video/mp4" />
@@ -55,16 +55,17 @@
               </div>
               <div class="swiper-slide">
                 <a href="https://groundedpractice.netlify.app" target="blank">
-                  <img src="img/groundedpracticewebsite.png" alt="Website" />
+                  <img src="img/grounded-practice-main.png" alt="Website" />
                   <div class="carousel-label">
                     <h3>Grounded Practice</h3>
                     <p>A website for my Garry's Mod Artwork</p>
                   </div></a
                 >
               </div>
+
               <div class="swiper-slide">
                 <a href="works/scoopedm.html">
-                  <img src="img/Scoop_EDM.png" alt="poster" />
+                  <img src="img/edm_scoop.png" alt="poster" />
                   <div class="carousel-label">
                     <h3>Scoop EDM</h3>
                     <p>
@@ -336,7 +337,8 @@
       direction: "horizontal",
       speed: 1000,
       autoplay: {
-        disableOnInteraction: false,
+        delay: 2000,
+        disableOnInteraction: true,
       },
       pagination: {
         el: ".swiper-pagination",

@@ -237,7 +237,6 @@ h3 {
 } */
 
 .swiper-slide img {
-  filter: brightness(0.9);
   width: 100vw;
   position: relative;
   height: 100vh;
@@ -264,18 +263,18 @@ h3 {
 .carousel-label {
   text-align: left;
   padding: 50px;
-  color: #ffffff;
   position: relative;
+  color: #ffffff;
 }
 
 .carousel-label h3 {
   font-weight: 600;
 }
 
-.swiper-slide a:hover,
-.carousel-label h3:hover {
+.swiper-slide > *:hover {
   text-decoration: underline;
-  color: #ffffff;
+  text-decoration-color: #ffffff;
+  transition: 0.5s ease-in-out;
 }
 
 /* home intro */
@@ -403,7 +402,6 @@ h3 {
 .pill-row,
 .pill-row-white {
   display: flex;
-
   flex-wrap: wrap;
 }
 

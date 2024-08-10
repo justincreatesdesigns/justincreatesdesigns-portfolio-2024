@@ -277,7 +277,7 @@ h4 {
 
 .home-intro h3 {
   font-weight: 400;
-  font-size: clamp(1rem, 5vw, 6rem);
+  font-size: clamp(1rem, 5vw, 3rem);
 }
 
 .home-intro p,

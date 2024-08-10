@@ -44,7 +44,7 @@ li,
   font-variation-settings: "slnt" 0;
   margin: 0px;
   padding: 0px;
-  font-size: clamp(16px, 4vw, 24px);
+  font-size: clamp(1rem, 1.5vw, 3rem);
 }
 
 h1,
@@ -265,27 +265,17 @@ h4 {
 
 /* home intro */
 
-.home-intro h1 {
-  font-size: clamp(1.3rem, 5vw, 5rem);
-}
-.home-intro h2 {
-  font-size: clamp(1.3rem, 4vw, 3rem);
-}
-
-.home-intro h2 {
-  font-weight: 500;
-  padding-top: 20px;
-  width: 60%;
-}
-
-.home-intro h3 {
-  font-weight: 400;
-}
-
 .home-intro {
-  padding: 60px;
   height: 100vh;
   align-content: center;
+}
+
+.home-intro h1 {
+  font-size: clamp(1rem, 7.5vw, 5rem);
+}
+
+.home-intro p {
+  padding: 10px 0;
 }
 
 /* intro */
@@ -669,7 +659,7 @@ ol {
 
   .swiper-pagination {
     left: 40px;
-    bottom: 120px;
+    bottom: 100px;
     text-align: left; /* Adjust text alignment */
     padding: 0; /* Remove padding */
     width: fit-content;
@@ -683,7 +673,7 @@ ol {
   .carousel-label {
     padding-left: 40px;
     padding-bottom: 40px;
-    bottom: 34px;
+    bottom: 26px;
   }
 
   .carousel-label h4 {

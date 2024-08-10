@@ -254,7 +254,7 @@ h4 {
 }
 
 .carousel-label h3 {
-  font-size: clamp(1.5rem, 8vw, 3rem);
+  font-size: clamp(1.5rem, 12vw, 2.5rem);
   font-weight: 600;
 }
 

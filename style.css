@@ -314,7 +314,7 @@ h3 {
 
 .view-all-link {
   text-align: center;
-  padding: 100px;
+  padding: 100px 0px;
 }
 
 .view-all-link a:hover {

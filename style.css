@@ -36,21 +36,24 @@ a video {
 /* font size */
 
 p,
-li {
+li,
+.main-artcle p,
+.works-content-details p {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
   font-variation-settings: "slnt" 0;
-  font-size: 24px;
   margin: 0px;
   padding: 0px;
+  font-size: clamp(16px, 4vw, 24px);
 }
 
 h1,
 h2,
 h3,
 h4 {
+  font-size: clamp(2rem, 5vw, 5rem);
   font-family: "Inter Tight", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
@@ -59,36 +62,12 @@ h4 {
   padding: 0px;
 }
 
-h1 {
-  font-size: 50px;
-}
-
-h2 {
-  font-size: 40px;
-}
-
-h3 {
-  font-size: 36px;
-}
-
-.custom-p {
-  font-size: 24px;
-  font-weight: bold;
-}
-
 /* spacing */
 
 .p-brand {
   padding: 50px;
   padding-left: 50px;
   padding-right: 50px;
-}
-
-.custom-brand {
-  font-size: 32px;
-  height: 200px;
-  max-height: 100%;
-  align-content: end;
 }
 
 .offcanvas-header {
@@ -226,7 +205,6 @@ h3 {
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
   background: #ffffff;
   display: flex;
   justify-content: left;
@@ -251,12 +229,12 @@ h3 {
 }
 
 .swiper-pagination {
+  font-size: clamp(1.5rem, 2vw, 2rem);
   text-align: right;
   padding: 50px;
   left: -14px;
   color: #ffffff;
   font-weight: bolder;
-  font-size: 24px;
   font-family: "Inter Tight", sans-serif;
 }
 
@@ -268,6 +246,7 @@ h3 {
 }
 
 .carousel-label h3 {
+  font-size: clamp(1.5rem, 6vw, 3rem);
   font-weight: 600;
 }
 
@@ -278,9 +257,11 @@ h3 {
 
 /* home intro */
 
-.home-intro h1,
+.home-intro h1 {
+  font-size: clamp(1.3rem, 5vw, 5rem);
+}
 .home-intro h2 {
-  font-size: clamp(1rem, 6.5vw, 5rem);
+  font-size: clamp(0.5rem, 4vw, 3rem);
 }
 
 .home-intro h2 {
@@ -296,14 +277,22 @@ h3 {
 .home-intro {
   padding: 60px;
   height: 100vh;
+  align-content: center;
 }
 
 /* intro */
 
 .intro {
-  z-index: 2;
-  display: flex;
   padding: 50px;
+}
+
+.intro h1 {
+  font-size: clamp(2rem, 8vw, 4.5rem);
+}
+
+.intro p {
+  font-size: clamp(1rem, 4vw, 1.8rem);
+  font-weight: 300;
 }
 
 .intro div {
@@ -368,12 +357,12 @@ h3 {
 }
 
 .works-content-details h4 {
-  font-size: 30px;
+  font-size: clamp(24px, 3vw, 30px);
   font-weight: 600;
 }
 
 .works-content-details p {
-  font-size: 16px;
+  font-size: clamp(16px, 3vw, 20px);
 }
 
 .works-content-grid,
@@ -503,6 +492,10 @@ h3 {
 
 /* all-works */
 
+.nav-link h4 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
 .all-works h2 {
   padding: 12px 0;
 }
@@ -624,16 +617,6 @@ ol {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 30px;
-  }
-
-  h3 {
-    font-size: 35px;
-  }
   .navbar-brand img {
     width: 60px;
   }
@@ -685,6 +668,10 @@ ol {
   .all-works,
   .main-article {
     padding: 40px;
+  }
+
+  .works {
+    margin-top: 98px;
   }
 
   .works-content img,

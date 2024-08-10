@@ -475,7 +475,9 @@ h4 {
 /* blogs */
 
 .blogs {
-  padding: 50px 50px;
+  padding: 0px 50px;
+  height: 100vh;
+  align-content: space-around;
 }
 
 /* .blogs h2 {
@@ -547,12 +549,12 @@ footer h4,
   padding: 20px;
 }
 
-.main-article-img img {
+.main-article-img img,
+.blog-img {
   width: 100%;
 }
 
-.article-img img,
-.blog-img {
+.article-img img {
   width: 100%;
   padding: 20px 0px;
 }

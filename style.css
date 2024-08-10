@@ -278,14 +278,19 @@ h3 {
 
 /* home intro */
 
-.home-intro h1 {
+.home-intro h1,
+.home-intro h2 {
   font-size: clamp(1rem, 6.5vw, 5rem);
 }
 
 .home-intro h2 {
-  font-size: clamp(1rem, 6.5vw, 4rem);
-  font-weight: 400;
+  font-weight: 500;
   padding-top: 20px;
+  width: 60%;
+}
+
+.home-intro h3 {
+  font-weight: 400;
 }
 
 .home-intro {
@@ -586,7 +591,12 @@ ol {
   font-weight: 400;
 }
 
-.updown-link:hover {
+.target-nav-link {
+  color: white;
+}
+
+.updown-link:hover,
+.target-nav-link:hover {
   color: #ffb800;
   transition: 0.3s;
   cursor: pointer;
@@ -723,5 +733,17 @@ ol {
 
   .parallax-group {
     height: 90vh;
+  }
+
+  .home-intro h2 {
+    width: 100%;
+  }
+
+  .home-intro h3 {
+    font-size: 24px;
+  }
+
+  .home-intro p {
+    font-size: 16px;
   }
 }

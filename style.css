@@ -281,7 +281,8 @@ h4 {
 }
 
 .home-intro p,
-.home-intro h3 {
+.home-intro h3,
+.home-intro h1 {
   padding: 10px 0;
 }
 

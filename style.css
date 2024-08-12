@@ -217,6 +217,7 @@ h4 {
   display: flex;
   justify-content: left;
   align-items: flex-end;
+  width: auto;
 }
 /* .swiper-slide a {
   position: absolute;

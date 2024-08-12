@@ -474,7 +474,6 @@ h4 {
 
 .blogs {
   padding: 0px 50px;
-  height: 100vh;
   align-content: space-around;
 }
 
@@ -651,7 +650,7 @@ ol {
 
   .all-spacer {
     padding: 40px;
-    margin-top: 150px;
+    margin-top: 116px;
   }
 
   .home-intro {

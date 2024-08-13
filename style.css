@@ -706,11 +706,12 @@ ol {
     margin-top: 98px;
   }
 
+  .works-content-home img,
   .works-content img,
   .works-video-grid {
     object-fit: cover;
     width: 100%;
-    height: 260px;
+    height: 220px;
   }
 
   .pill-row {

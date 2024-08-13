@@ -473,9 +473,8 @@ h4 {
 
 /* blogs */
 
-.blogs {
+#blogs {
   padding: 0px 50px;
-  align-content: space-around;
 }
 
 /* .blogs h2 {

@@ -97,7 +97,7 @@ h4 {
 }
 
 .top-spacer {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .padding-left-right {
@@ -686,10 +686,10 @@ ol {
     margin-top: 10px;
     padding: 40px;
   }
-
+  /* 
   .top-spacer {
     margin-top: 100px;
-  }
+  } */
   .swiper-wrapper {
     height: 90vh;
   }

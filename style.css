@@ -672,6 +672,11 @@ ol {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+  #main-works {
+    padding: 40px;
+    margin-top: 100px;
+  }
+
   .navbar-brand img {
     width: 60px;
   }

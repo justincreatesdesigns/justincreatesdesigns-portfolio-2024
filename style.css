@@ -338,12 +338,17 @@ h4 {
   padding-bottom: 50px;
 } */
 
+/* .works-content div {
+  height: 300px;
+  margin-bottom: 6em;
+} */
+
 .works-content .work-hover img:hover,
 .works-video-grid:hover,
 .works-content-home img:hover,
 .works-video-grid-home:hover {
   filter: brightness(70%);
-  padding: 0px 10px;
+  padding: 10px;
   transition: 0.3s;
 }
 
@@ -380,12 +385,13 @@ h4 {
   padding-right: 20px;
   padding-left: 0px;
 }
+
 .works-content-home img,
 .works-video-grid-home,
 .works-video-grid,
 .works-content-grid img {
   width: 100%;
-  height: calc(80% - 4em);
+  height: 280px;
   top: 0px;
 }
 
@@ -489,7 +495,7 @@ h4 {
 } */
 
 #blogs img {
-  height: calc(100% - 4em);
+  height: 600px;
 }
 
 .content {
@@ -672,6 +678,10 @@ ol {
   #main-works {
     padding: 40px;
     margin-top: 100px;
+  }
+
+  #blogs img {
+    height: 300px;
   }
 
   .navbar-brand img {

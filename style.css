@@ -859,6 +859,10 @@ a.in-works-link-white {
     width: 100%;
   }
 
+  .home-intro-contents {
+    align-content: center;
+  }
+
   .main-article p {
     width: 100%;
   }

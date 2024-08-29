@@ -283,9 +283,8 @@ h4 {
 }
 
 .home-intro h3 {
-  font-weight: 400;
+  font-weight: 200;
   font-size: clamp(1rem, 5vw, 3rem);
-  width: 80%;
 }
 
 .home-intro p,
@@ -300,7 +299,7 @@ h4 {
 }
 
 .services-title h3 {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .services-desc {

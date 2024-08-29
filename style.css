@@ -197,7 +197,6 @@ h4 {
 
 .parallax-group {
   position: relative;
-  height: 100vh;
   transform-style: preserve-3d;
 }
 
@@ -267,8 +266,8 @@ h4 {
 /* home intro */
 
 .home-intro {
-  height: 100vh;
-  align-content: center;
+  height: 100%;
+  align-content: top;
   padding: 50px;
   -webkit-box-shadow: 0px -48px 79px -13px rgba(0, 0, 0, 0.43);
   -moz-box-shadow: 0px -48px 79px -13px rgba(0, 0, 0, 0.43);
@@ -276,18 +275,43 @@ h4 {
 }
 
 .home-intro h1 {
-  font-size: clamp(1rem, 7vw, 5rem);
+  font-size: clamp(1rem, 7vw, 7rem);
 }
 
 .home-intro h3 {
   font-weight: 400;
   font-size: clamp(1rem, 5vw, 3rem);
+  width: 80%;
 }
 
 .home-intro p,
 .home-intro h3,
 .home-intro h1 {
   padding: 5px 0;
+}
+
+.services {
+  height: 47vh;
+  align-content: end;
+  /* justify-items: left; */
+  text-align: right;
+}
+
+.services-title {
+  text-align: left;
+}
+
+.services-title h3 {
+  font-weight: 600;
+}
+
+.services-desc h3 {
+  font-weight: 200;
+}
+
+.services h3 {
+  font-size: clamp(1rem, 5vw, 2rem);
+  width: 100%;
 }
 
 /* intro */
@@ -332,6 +356,7 @@ h4 {
   padding: 0px 100px;
   align-content: center;
   margin-bottom: 150px;
+  margin-top: 50px;
 }
 
 /* .works h2 {
@@ -406,7 +431,8 @@ h4 {
 /* pill */
 
 .pill-row,
-.pill-row-white {
+.pill-row-white,
+.pill-row-intro {
   display: flex;
   flex-wrap: wrap;
 }
@@ -601,7 +627,8 @@ ol {
   height: 400px;
 }
 
-.in-works-link {
+.in-works-link,
+.in-works-link-white {
   text-align: center;
   font-size: 26px;
   margin: 30px 0;
@@ -614,7 +641,16 @@ ol {
   font-weight: 500;
 }
 
-.in-works-link:hover {
+.in-works-link-white {
+  background-color: #ffffff;
+  width: min(100vw, 30%);
+  border: none;
+  font-weight: 600;
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.in-works-link:hover,
+.in-works-link-white:hover {
   background-color: #ffb800;
   transition: 0.3s;
   cursor: pointer;
@@ -697,8 +733,9 @@ ol {
   }
 
   .home-intro {
-    margin-top: 10px;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
   }
   /* 
   .top-spacer {
@@ -743,9 +780,9 @@ ol {
     /* margin-bottom: 50px; */
   }
 
-  .works {
+  /* .works {
     margin-top: 98px;
-  }
+  } */
 
   .works-content-home img,
   .works-content img,
@@ -794,11 +831,15 @@ ol {
     padding-right: 0px;
   }
 
-  .parallax-group {
-    height: 90vh;
+  .in-works-link-white {
+    width: 100%;
   }
 
-  .home-intro h2 {
+  /* .parallax-group {
+    height: 90vh;
+  } */
+
+  .home-intro h3 {
     width: 100%;
   }
 

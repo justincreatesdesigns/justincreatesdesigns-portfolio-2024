@@ -627,6 +627,11 @@ ol {
   height: 400px;
 }
 
+a.in-works-link-white {
+  width: fit-content;
+  display: contents;
+}
+
 .in-works-link,
 .in-works-link-white {
   text-align: center;

@@ -291,7 +291,7 @@ h4 {
 }
 
 .services {
-  height: 47vh;
+  height: 40vh;
   align-content: end;
   /* justify-items: left; */
   text-align: right;
@@ -858,5 +858,9 @@ a.in-works-link-white {
 
   footer {
     padding: 40px;
+  }
+
+  .my-shapes img {
+    width: 100%;
   }
 }

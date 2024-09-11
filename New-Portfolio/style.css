@@ -1,0 +1,309 @@
+* {
+  font-family: "Inter Tight", sans-serif;
+}
+
+body {
+  color: white;
+  background-color: #062d28;
+}
+
+main {
+  margin-top: 132px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  transition: 0.3s;
+  color: #ffb800;
+}
+
+section {
+  background-color: white;
+  padding: 30px;
+}
+
+section * {
+  color: black;
+}
+
+#link {
+  margin-top: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Nav */
+
+nav */ .navbar-toggler:focus {
+  /*Below line will remove the border from the icon
+    I have used bootstrap icon here */
+  /* This will only remove the shadow effect */
+  /* Border is still there */
+  /* if you don't want any border then set the property equals to zero */
+  border: 0;
+  box-shadow: none;
+
+  /* This will remove the rounded corner(radious-border)
+    and give square border */
+  /* border-radius: 0 !important; */
+}
+
+.navbar-toggler {
+  /* This will completely remove border from the icon */
+  /* If you need border for the icon then comment this code */
+  border: 0;
+
+  /* if you want to check the border please uncomment below code */
+  /* border-color: yellow !important; */
+}
+
+.navbar-nav {
+  padding: 30px;
+}
+
+.nav-item {
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  font-size: 50px;
+}
+
+a.nav-link {
+  font-weight: bold;
+  color: black;
+  text-align: left;
+}
+
+.custom-brand {
+  height: 20vh;
+  align-content: center;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.navbar-toggler-icon {
+  background-image: url(img/menu.png);
+  background-size: contain;
+}
+
+.nav-padding {
+  padding: 30px;
+}
+
+.offcanvas-header {
+  justify-content: right;
+}
+
+.offcanvas-header button {
+  height: 72px;
+}
+
+.btn-close.m-0 {
+  opacity: 1;
+}
+
+.btn-close {
+  background-image: url(img/cancel.png);
+  background-size: contain;
+}
+
+.navbar-nav a:hover {
+  color: #ffb800;
+}
+
+.bg-brand-green {
+  background-color: #062d28;
+  color: white;
+}
+
+/* Typography */
+
+h1 {
+  font-weight: bold;
+  font-size: calc(45px + 3vw); /* Adjust based on viewport width */
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: calc(20px + 1.5vw); /* Adjust based on viewport width */
+  margin: 0px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: calc(16px + 1vw); /* Adjust based on viewport width */
+  margin: 0px;
+}
+
+p {
+  font-weight: 300;
+  font-size: calc(14px + 0.5vw); /* Adjust based on viewport width */
+  margin: 0px;
+}
+
+/* Intro */
+
+.intro {
+  padding: 30px;
+}
+
+.breadcrumbs {
+  height: 50vh;
+  align-content: end;
+}
+
+#breadcrumb-1 {
+  align-content: end;
+}
+
+/* Portfolio */
+
+.portfolio img {
+  width: 100%;
+  height: 400px;
+  min-height: 240px;
+  max-height: 400px;
+  transition: height 0.3s ease;
+}
+
+.portfolio-desc {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.portfolio img:hover {
+  filter: brightness(70%);
+  transition: 0.3s;
+}
+
+/* Blog */
+
+.blog {
+  margin-top: 160px;
+  margin-bottom: 180px;
+}
+
+.blog img {
+  width: 100%;
+  height: 600px;
+  min-height: 240px;
+  max-height: 600px;
+  transition: height 0.3s ease;
+}
+
+.blog img:hover {
+  filter: brightness(70%);
+  transition: 0.3s;
+}
+
+.blog-desc {
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+  padding: 30px;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+footer .social-links a {
+  font-weight: lighter;
+  display: flex;
+  font-size: calc(14px + 0.5vw); /* Adjust based on viewport width */
+}
+
+.email-link {
+  text-align: right;
+}
+
+.email-link h2 {
+  font-weight: bold;
+}
+
+.email-link a {
+  font-weight: 500;
+  font-size: calc(16px + 1vw); /* Adjust based on viewport width */
+}
+
+.bottom {
+  align-content: end;
+  height: 65vh;
+}
+
+.bottom h1 {
+  text-align: right;
+  margin: 0px;
+  font-size: calc(34px + 5vw);
+}
+
+#back-to-top {
+  font-weight: bold;
+  align-self: end;
+}
+
+#back-to-top a {
+  font-size: calc(16px + 0.5vw); /* Fluid size adjustment */
+}
+
+@media only screen and (max-width: 767px) {
+  /* Intro */
+  .breadcrumbs {
+    height: 50vh;
+  }
+  #breadcrumb-1 {
+    width: 50%;
+  }
+  #breadcrumb-2 {
+    text-align: right;
+    width: 50%;
+  }
+
+  /* Portfolio */
+
+  .portfolio-desc {
+    margin-bottom: 0px;
+  }
+
+  .portfolio img,
+  .blog img {
+    height: 240px;
+  }
+
+  /* Footer */
+
+  #social-links-1,
+  #social-links-2 {
+    width: 50%;
+  }
+
+  .email-link {
+    height: 60vh;
+    align-content: center;
+  }
+
+  .bottom {
+    height: 10vh;
+  }
+
+  #back-to-top {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .bottom h1 {
+    font-size: 34px;
+    text-align: center;
+  }
+}

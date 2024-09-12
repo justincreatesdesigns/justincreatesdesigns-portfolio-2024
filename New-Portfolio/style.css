@@ -23,11 +23,22 @@ a:hover {
 }
 
 section {
-  background-color: white;
   padding: 30px;
 }
 
-section * {
+#sectiongreen {
+  background-color: #062d28;
+  color: white;
+}
+
+#sectionwhite {
+  background-color: white;
+}
+
+#sectionwhite h1,
+#sectionwhite h2,
+#sectionwhite h3,
+#sectionwhite p {
   color: black;
 }
 
@@ -271,6 +282,10 @@ footer .social-links a {
 
 /* About */
 
+#projects {
+  background-color: #062d28;
+}
+
 .about-imgs img {
   width: 100%;
 }
@@ -282,50 +297,62 @@ footer .social-links a {
 /* Projects */
 
 .project {
-  background-color: #062d28;
-  padding-left: 30px;
+  display: flex; /* Use flex to align the left and right columns side by side */
+  align-items: flex-start; /* Align items to the start */
+  height: 100%;
 }
 
 .project-details {
-  width: 700px;
-}
-
-.project-details * {
-  color: white;
-}
-
-.project-details-others {
-  padding: 40px 0;
-}
-
-.project-brief,
-.services,
-.year {
-  display: flex;
-  padding: 40px 0;
-  justify-content: space-between;
-}
-
-.project-brief h3,
-.services h3,
-.year h3 {
-  text-transform: capitalize;
-  width: 400px;
-}
-
-.project-brief p,
-.services p,
-.year p {
-  width: 100%;
+  position: sticky;
+  top: 132px; /* Adjust to match the height of the fixed navbar */
+  max-height: calc(
+    100vh - 132px
+  ); /* Limits the height to the viewport height minus the navbar */
 }
 
 .project-imgs {
+  flex: 1; /* Use flex to take the remaining space */
+}
+
+.portfolio-imgs {
+  width: fit-content;
+}
+
+.portfolio-imgs img,
+.portfolio-imgs video {
+  padding: 20px 12px;
   width: 100%;
 }
 
-.project-imgs img {
+.portfolio-imgs p {
+  padding: 20px 12px;
+}
+
+.project-details h1 {
+  font-size: clamp(34px, 5vw, 96px);
+}
+
+.project-details h2 {
+  font-size: clamp(16px, 3vw, 32px);
+}
+
+.project-details-others {
+  padding-top: 40px;
+}
+
+.project-details-others div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.project-details-others h3 {
+  width: 200px;
+  font-size: 24px;
+}
+
+.project-details-others p {
   width: 100%;
-  padding: 20px 0;
 }
 
 @media only screen and (max-width: 767px) {
@@ -352,6 +379,10 @@ footer .social-links a {
     height: 240px;
   }
 
+  .project-details-others div {
+    flex-direction: column;
+  }
+
   /* Footer */
 
   #social-links-1,
@@ -374,7 +405,21 @@ footer .social-links a {
   }
 
   .bottom h1 {
-    font-size: 34px;
+    font-size: 24px;
     text-align: center;
+  }
+}
+
+/* For MacBook Air and MacBook Pro Range */
+@media only screen and (min-width: 1280px) and (max-width: 1792px) {
+  /* Add styles for a broader range of MacBook sizes */
+
+  /* Projects */
+
+  .project-details h1 {
+    font-size: calc(45px + 2vw);
+  }
+  .project-details h2 {
+    font-size: calc(20px + 0.6vw);
   }
 }

@@ -198,9 +198,9 @@ p {
 .portfolio img,
 .portfolio video {
   width: 100%;
-  height: 330px;
+  /* height: 250px;
   min-height: 240px;
-  max-height: 400px;
+  max-height: 400px; */
   transition: height 0.3s ease;
 }
 
@@ -211,8 +211,9 @@ p {
   justify-content: space-between;
 }
 
-.portfolio-desc p {
-  width: 300px;
+.portfolio-desc p,
+.portfolio-desc h3 {
+  width: 195px;
   height: fit-content;
 }
 
@@ -225,9 +226,9 @@ p {
 
 .blog img {
   width: 100%;
-  height: 600px;
+  /* height: 600px;
   min-height: 240px;
-  max-height: 600px;
+  max-height: 600px; */
   transition: height 0.3s ease;
 }
 
@@ -392,11 +393,11 @@ footer .social-links a {
   .portfolio-desc p {
     width: 100%;
   }
-
+  /* 
   .portfolio img,
   .blog img {
     height: 240px;
-  }
+  } */
 
   .project-details-others div {
     flex-direction: column;

@@ -155,7 +155,7 @@ a.nav-link {
 /* Typography */
 
 h1 {
-  font-weight: bolder;
+  font-weight: bold;
   font-size: calc(45px + 3vw); /* Adjust based on viewport width */
   margin-bottom: 30px;
 }

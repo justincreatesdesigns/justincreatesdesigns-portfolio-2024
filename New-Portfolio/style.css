@@ -5,6 +5,7 @@
 body {
   color: white;
   background-color: #062d28;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -34,6 +35,14 @@ section * {
   margin-top: 60px;
   font-weight: bold;
   text-align: center;
+}
+
+.spacer-160 {
+  margin-bottom: 160px;
+}
+
+.spacer-180 {
+  margin-bottom: 180px;
 }
 
 /* Nav */
@@ -122,7 +131,7 @@ a.nav-link {
 /* Typography */
 
 h1 {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: calc(45px + 3vw); /* Adjust based on viewport width */
   margin-bottom: 30px;
 }
@@ -174,8 +183,12 @@ p {
   padding: 20px 0;
   margin-bottom: 20px;
   display: flex;
-  height: 100px;
   justify-content: space-between;
+}
+
+.portfolio-desc p {
+  width: 300px;
+  height: fit-content;
 }
 
 .portfolio img:hover {
@@ -184,11 +197,6 @@ p {
 }
 
 /* Blog */
-
-.blog {
-  margin-top: 160px;
-  margin-bottom: 180px;
-}
 
 .blog img {
   width: 100%;
@@ -206,6 +214,10 @@ p {
 .blog-desc {
   padding: 20px 0;
   margin-bottom: 20px;
+}
+
+.blog-desc h3 {
+  padding: 20px 0;
 }
 
 /* Footer */
@@ -245,7 +257,7 @@ footer .social-links a {
 .bottom h1 {
   text-align: right;
   margin: 0px;
-  font-size: calc(34px + 5vw);
+  font-size: calc(34px + 4vw);
 }
 
 #back-to-top {
@@ -255,6 +267,65 @@ footer .social-links a {
 
 #back-to-top a {
   font-size: calc(16px + 0.5vw); /* Fluid size adjustment */
+}
+
+/* About */
+
+.about-imgs img {
+  width: 100%;
+}
+
+.about-desc p {
+  font-weight: bold;
+}
+
+/* Projects */
+
+.project {
+  background-color: #062d28;
+  padding-left: 30px;
+}
+
+.project-details {
+  width: 700px;
+}
+
+.project-details * {
+  color: white;
+}
+
+.project-details-others {
+  padding: 40px 0;
+}
+
+.project-brief,
+.services,
+.year {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+
+.project-brief h3,
+.services h3,
+.year h3 {
+  text-transform: capitalize;
+  width: 400px;
+}
+
+.project-brief p,
+.services p,
+.year p {
+  width: 100%;
+}
+
+.project-imgs {
+  width: 100%;
+}
+
+.project-imgs img {
+  width: 100%;
+  padding: 20px 0;
 }
 
 @media only screen and (max-width: 767px) {

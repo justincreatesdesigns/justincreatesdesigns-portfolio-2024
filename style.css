@@ -17,7 +17,8 @@ a {
   color: white;
 }
 
-a:hover {
+a:hover,
+#link > *:hover {
   transition: 0.3s;
   color: #ffb800;
 }
@@ -40,21 +41,6 @@ section {
 #sectionwhite h3,
 #sectionwhite p {
   color: black;
-}
-
-#linkleft {
-  padding-top: 100px;
-  text-align: left;
-  align-content: end;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-#link {
-  margin-top: 60px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
 }
 
 .spacer-160 {
@@ -187,6 +173,25 @@ p {
   margin: 0px;
 }
 
+#linkleft {
+  padding-top: 100px;
+  text-align: left;
+  align-content: end;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#link {
+  margin-top: 60px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#link > * {
+  color: black;
+}
+
 /* Intro */
 
 .intro {
@@ -219,10 +224,12 @@ p {
   display: flex;
   justify-content: space-between;
 }
-
-.portfolio-desc p,
 .portfolio-desc h3 {
-  width: 195px;
+  width: 188px;
+  height: fit-content;
+}
+.portfolio-desc p {
+  width: 300px;
   height: fit-content;
 }
 
@@ -298,10 +305,6 @@ footer .social-links a {
 #back-to-top {
   font-weight: bold;
   align-self: end;
-}
-
-#back-to-top a {
-  font-size: calc(16px + 0.5vw); /* Fluid size adjustment */
 }
 
 /* About */

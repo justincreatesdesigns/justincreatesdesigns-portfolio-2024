@@ -16,12 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -49,24 +44,63 @@
         <div class="about">
           <div class="row">
             <div class="col-lg-6 col-sm-12">
-              <div class="swiper mySwiper" id="mobile-view">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="img/swiper-test-photo.png" alt="" />
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="../img/banner1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
                   </div>
-                  <div class="swiper-slide">
-                    <img src="img/swiper-test-photo.png" alt="" />
+                  <div class="carousel-item">
+                    <img
+                      src="../img/banner1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
                   </div>
-                  <div class="swiper-slide">
-                    <img src="img/swiper-test-photo.png" alt="" />
+                  <div class="carousel-item">
+                    <img
+                      src="../img/banner1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
                   </div>
-                  <div class="swiper-slide">
-                    <img src="img/swiper-test-photo.png" alt="" />
+                  <div class="carousel-item">
+                    <img
+                      src="../img/banner1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
                   </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
+              <!-- Carousel End -->
             </div>
             <div class="col-lg-6 col-sm-12">
               <div class="about-desc">
@@ -124,14 +158,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="

@@ -42,10 +42,19 @@ section {
   color: black;
 }
 
+#linkleft {
+  padding-top: 100px;
+  text-align: left;
+  align-content: end;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 #link {
   margin-top: 60px;
   font-weight: bold;
   text-align: center;
+  text-decoration: underline;
 }
 
 .spacer-160 {
@@ -385,14 +394,21 @@ footer .social-links a {
 
   /* Portfolio */
 
+  .portfolio {
+    text-align: left;
+  }
+
   .portfolio-desc {
     margin-bottom: 20px;
     flex-direction: column;
   }
 
+  .portfolio-desc h3,
   .portfolio-desc p {
     width: 100%;
+    transition: width 0.3s ease;
   }
+
   /* 
   .portfolio img,
   .blog img {

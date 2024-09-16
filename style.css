@@ -174,7 +174,7 @@ p {
 }
 
 #linkleft {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   text-align: left;
   align-content: end;
   font-weight: bold;
@@ -360,7 +360,7 @@ footer .social-links a {
 }
 
 .project-details h2 {
-  font-size: clamp(16px, 3vw, 32px);
+  font-size: clamp(16px, 7vw, 32px);
 }
 
 .project-details-others {

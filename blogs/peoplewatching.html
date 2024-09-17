@@ -21,85 +21,49 @@
       href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <div id="navigation"></div>
+
     <main id="back-to-top">
+      <div class="main-blog-img">
+        <img src="../img/BlogPhotos/people-watching.jpg" alt="" />
+      </div>
       <section id="sectionwhite">
-        <div class="portfolio">
-          <h1>Portfolio</h1>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <a href="portfolio-pages/spotify.html">
-                <img src="img/banner1.png" alt="#" />
-
-                <div class="portfolio-desc">
-                  <h3>Scoop</h3>
-                  <p>EDM sticking following Scoop's brand identity.</p>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <a href="portfolio-pages/spotify.html">
-                <video autoplay playsinline controls loop>
-                  <source
-                    src="../img/Spotify/works-spotifyvideo.mp4"
-                    type="video/mp4"
-                  />
-                </video>
-
-                <div class="portfolio-desc">
-                  <h3>Spotify</h3>
-                  <p>A motion graphics-driven promotional video for Spotify.</p>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <a href="/portfolio-pages/sgf.html"
-                ><img src="img/SGF/SGF_Showcase.png" alt="#" />
-                <div class="portfolio-desc">
-                  <h3>SGF 2023</h3>
-                  <p>Graphics, Colours and Generative AI.</p>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <a href="/portfolio-pages/ictposter.html"
-                ><img src="img/banner1.png" alt="#" />
-                <div class="portfolio-desc">
-                  <h3>ICT Posters</h3>
-                  <p>Posters to communicate with students in my workplace.</p>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <a href="/portfolio-pages/ripple.html"
-                ><img src="img/banner1.png" alt="#" />
-                <div class="portfolio-desc">
-                  <h3>Ripple</h3>
-                  <p>
-                    A brand identity I created that is all about making a
-                    difference.
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-              <a href="/portfolio-pages/supermama.html"
-                ><img src="img/SUPERMAMA/EDMLayout_2.png" alt="#" />
-                <div class="portfolio-desc">
-                  <h3>SUPERMAMA</h3>
-                  <p>
-                    Positioning SUPERMAMA as a brand that narrates Singapore's
-                    Story
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="spacer-180"></div>
+        <div class="blog">
+          <h1>People Watching</h1>
+          <p>
+            Humans are among the most complex creatures in the animal kingdom.
+            If animals could observe us, they might think we’re crazy. We walk
+            on two feet, eat a wide variety of foods, experiment on and consume
+            plants, and ride in metal machines, among many other things.
+            <br /><br />
+            This often puts us on the opposite end of the spectrum from how most
+            animals live. Take cats, for example. Their daily routine is usually
+            simple: eat, sleep, run around, and occasionally seek attention.
+            They might nap for half the day, only to wake up, meow for food or
+            affection, and then go back to resting. <br /><br />
+            Their lives are relatively consistent and straightforward. In
+            contrast, human lives can be unpredictable and varied—even from the
+            moment we wake up. Our routines can change so much that we have apps
+            to help manage our time. However, like cats, we also crave
+            attention. We engage in activities such as playing video games,
+            hanging out with friends, posting on social media, or even
+            skydiving. (Okay, that last one is a bit extreme, but you get the
+            idea.)<br /><br />
+            The ways we seek attention are far more diverse and complex than the
+            way animals do. Humans are amazing creatures capable of displaying a
+            wide range of emotions, thoughts, and behaviors. Our uniqueness
+            comes from our individual experiences, upbringings, cultures, and
+            genetics. So, embrace your differences, and remember that everyone
+            around you is unique too.
+          </p>
         </div>
+        <div class="col-12" id="link">
+          <a href="../blog.html">VIEW ALL BLOGS</a>
+        </div>
+        <div class="spacer-180"></div>
       </section>
     </main>
     <div id="footer"></div>
@@ -119,8 +83,8 @@
     ></script>
     <script>
       $(function () {
-        $("#navigation").load("navigation.html");
-        $("#footer").load("footer.html");
+        $("#navigation").load("../navigation.html");
+        $("#footer").load("../footer.html");
       });
     </script>
   </body>

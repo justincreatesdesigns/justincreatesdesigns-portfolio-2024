@@ -332,9 +332,6 @@ footer .social-links a {
 .project-details {
   position: sticky;
   top: 132px; /* Adjust to match the height of the fixed navbar */
-  max-height: calc(
-    100vh - 132px
-  ); /* Limits the height to the viewport height minus the navbar */
 }
 
 .project-imgs {
@@ -421,6 +418,10 @@ footer .social-links a {
   .project-details-others div {
     flex-direction: column;
   }
+
+  /* .project-details {
+    position: relative;
+  } */
 
   .about-desc {
     padding-top: 40px;

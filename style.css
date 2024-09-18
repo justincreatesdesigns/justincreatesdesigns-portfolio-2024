@@ -433,6 +433,10 @@ footer .social-links a {
 
   /* Blog */
 
+  .blog {
+    text-align: left;
+  }
+
   .blog-desc h3 {
     padding: 0px;
   }

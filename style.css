@@ -321,6 +321,15 @@ footer .social-links a {
   width: 100%;
 }
 
+.about-title h1 {
+  margin: 20px 0;
+  font-size: ;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
 .about-imgs img {
   width: 100%;
 }
@@ -431,10 +440,10 @@ footer .social-links a {
   /* .project-details {
     position: relative;
   } */
-
+  /* 
   .about-desc {
     padding-top: 40px;
-  }
+  } */
 
   /* Blog */
 

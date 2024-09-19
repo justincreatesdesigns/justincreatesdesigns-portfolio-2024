@@ -227,7 +227,6 @@ p {
 .portfolio-desc h3 {
   width: 223px;
   height: fit-content;
-  line-break: anywhere;
 }
 .portfolio-desc p {
   width: 300px;
@@ -318,6 +317,10 @@ footer .social-links a {
   background-color: #062d28;
 }
 
+#projects video {
+  width: 100%;
+}
+
 .about-imgs img {
   width: 100%;
 }
@@ -336,6 +339,7 @@ footer .social-links a {
 
 .project-details {
   position: sticky;
+  width: 100%;
   top: 132px; /* Adjust to match the height of the fixed navbar */
 }
 
@@ -358,12 +362,11 @@ footer .social-links a {
 }
 
 .project-details h1 {
-  font-size: clamp(34px, 4vw, 96px);
-  line-break: anywhere;
+  font-size: clamp(28px, 4vw, 96px);
 }
 
 .project-details h2 {
-  font-size: clamp(16px, 7vw, 32px);
+  font-size: clamp(16px, 6vw, 32px);
 }
 
 .project-details-others {

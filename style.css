@@ -157,7 +157,7 @@ h1 {
 
 h2 {
   font-weight: 500;
-  font-size: calc(20px + 1.5vw); /* Adjust based on viewport width */
+  font-size: calc(20px + 1.8vw); /* Adjust based on viewport width */
   margin: 0px;
 }
 
@@ -358,7 +358,7 @@ footer .social-links a {
 }
 
 .project-details h1 {
-  font-size: clamp(34px, 5vw, 96px);
+  font-size: clamp(34px, 4vw, 96px);
   line-break: anywhere;
 }
 

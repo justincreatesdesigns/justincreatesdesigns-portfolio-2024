@@ -262,9 +262,9 @@ p {
   margin-bottom: 20px;
 }
 
-.blog-desc h3 {
+/* .blog-desc h3 {
   padding: 20px 0;
-}
+} */
 
 /* Footer */
 
@@ -355,12 +355,9 @@ footer .social-links a {
   flex: 1; /* Use flex to take the remaining space */
 }
 
-.portfolio-imgs {
-  width: fit-content;
-}
-
 .portfolio-imgs img,
-.portfolio-imgs video {
+.portfolio-imgs video,
+.portfolio-imgs iframe {
   padding: 20px 12px;
   width: 100%;
 }
@@ -450,9 +447,9 @@ footer .social-links a {
     text-align: left;
   }
 
-  .blog-desc h3 {
+  /* .blog-desc h3 {
     padding: 0px;
-  }
+  } */
 
   /* Footer */
 

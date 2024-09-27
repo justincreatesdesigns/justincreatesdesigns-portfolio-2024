@@ -221,17 +221,17 @@ p {
 .portfolio-desc {
   padding: 20px 0;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
-.portfolio-desc h3 {
+/* .portfolio-desc h3 {
   width: 223px;
   height: fit-content;
 }
 .portfolio-desc p {
   width: 300px;
   height: fit-content;
-}
+} */
 
 .portfolio img:hover {
   filter: brightness(70%);

@@ -365,10 +365,7 @@ footer .social-links a {
 }
 
 .portfolio-imgs p {
-  padding-bottom: 20px;
-  padding-left: 132px;
-  height: 300px;
-  padding-right: 132px;
+  padding: 132px;
   align-content: center;
 }
 
@@ -391,7 +388,7 @@ footer .social-links a {
 }
 
 .project-details-others h3 {
-  width: 200px;
+  width: 350px;
   font-size: 24px;
 }
 
@@ -430,9 +427,7 @@ footer .social-links a {
   }
 
   .portfolio-imgs p {
-    padding-left: 42px;
-    height: 350px;
-    padding-right: 42px;
+    padding: 132px;
   }
 
   /* 

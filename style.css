@@ -366,12 +366,14 @@ footer .social-links a {
 
 .portfolio-imgs p {
   padding-bottom: 20px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 132px;
+  height: 300px;
+  padding-right: 132px;
+  align-content: center;
 }
 
 .project-details h1 {
-  font-size: clamp(28px, 4vw, 96px);
+  font-size: clamp(25px, 4vw, 96px);
 }
 
 .project-details h2 {
@@ -427,11 +429,21 @@ footer .social-links a {
     transition: width 0.3s ease;
   }
 
+  .portfolio-imgs p {
+    padding-left: 42px;
+    height: 350px;
+    padding-right: 42px;
+  }
+
   /* 
   .portfolio img,
   .blog img {
     height: 240px;
   } */
+
+  .project-details {
+    margin-bottom: 50px;
+  }
 
   .project-details-others div {
     flex-direction: column;

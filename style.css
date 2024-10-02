@@ -420,6 +420,7 @@ footer .social-links a {
     flex-direction: column;
   }
 
+  .project-details-others h3,
   .portfolio-desc h3,
   .portfolio-desc p {
     width: 100%;
@@ -427,7 +428,7 @@ footer .social-links a {
   }
 
   .portfolio-imgs p {
-    padding: 132px;
+    padding: 42px;
   }
 
   /* 

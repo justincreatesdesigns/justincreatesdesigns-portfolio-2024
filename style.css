@@ -354,8 +354,12 @@ footer .social-links a {
 .project-imgs {
   flex: 1; /* Use flex to take the remaining space */
 }
+.portfolio-imgs img {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+}
 
-.portfolio-imgs img,
 .portfolio-imgs video,
 .portfolio-imgs iframe {
   padding-bottom: 12px;

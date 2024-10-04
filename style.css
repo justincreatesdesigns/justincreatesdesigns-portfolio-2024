@@ -404,7 +404,7 @@ footer .social-links a {
 
 .project-details-others h3 {
   width: 350px;
-  font-size: 24px;
+  font-size: calc(13px + 0.5vw);
 }
 
 .project-details-others p {

@@ -169,7 +169,7 @@ h3 {
 
 p {
   font-weight: 300;
-  font-size: calc(14px + 0.5vw); /* Adjust based on viewport width */
+  font-size: calc(13px + 0.5vw); /* Adjust based on viewport width */
   margin: 0px;
 }
 
@@ -177,8 +177,9 @@ p {
   /* padding-top: 100px; */
   text-align: left;
   align-content: end;
-  font-weight: bold;
+  font-weight: 300;
   text-decoration: underline;
+  margin-top: 50px;
 }
 
 #link {
@@ -216,6 +217,10 @@ p {
   min-height: 240px;
   max-height: 400px; */
   transition: height 0.3s ease;
+}
+
+.portfolio-imgs span {
+  font-weight: 600;
 }
 
 .portfolio-desc {

@@ -220,7 +220,7 @@ p {
   transition: height 0.3s ease;
 }
 
-.portfolio-imgs span {
+.portfolio-imgs strong {
   font-weight: 600;
 }
 
@@ -362,53 +362,30 @@ footer .social-links a {
   height: 100%;
 }
 
+.project-details h1 {
+  font-size: calc(30px + 1vw);
+}
+
+.project-details h4 {
+  padding-bottom: 30px;
+}
+
 .project-details {
   position: sticky;
   width: 100%;
   top: 132px; /* Adjust to match the height of the fixed navbar */
 }
 
-.project-imgs {
-  flex: 1; /* Use flex to take the remaining space */
+.project-collaborations strong {
+  font-weight: bold;
 }
 
-.portfolio-imgs img,
-.portfolio-imgs video,
-.portfolio-imgs iframe {
+.portfolio-imgs img {
   padding: 12px;
   width: 100%;
 }
-
-.portfolio-imgs p {
-  padding: 132px;
-  align-content: center;
-}
-
-.project-details h1 {
-  font-size: clamp(25px, 3.6vw, 96px);
-}
-
-.project-details h2 {
-  font-size: clamp(16px, 6vw, 32px);
-}
-
-.project-details-others {
-  padding-top: 40px;
-}
-
-.project-details-others div {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
-
-.project-details-others h3 {
-  width: 350px;
-  font-size: calc(13px + 0.5vw);
-}
-
-.project-details-others p {
-  width: 100%;
+.project-info {
+  padding: 50px;
 }
 
 @media only screen and (max-width: 767px) {

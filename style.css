@@ -380,7 +380,8 @@ footer .social-links a {
   font-weight: bold;
 }
 
-.portfolio-imgs img {
+.portfolio-imgs img,
+.portfolio-imgs video {
   padding: 12px;
   width: 100%;
 }

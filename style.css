@@ -169,7 +169,7 @@ h3 {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 200;
   font-size: calc(13px + 0.5vw); /* Adjust based on viewport width */
   margin: 0px;
 }
@@ -225,8 +225,8 @@ p {
 }
 
 .portfolio-desc {
-  padding: 20px 0;
-  margin-bottom: 20px;
+  padding: 10px 0;
+  margin-bottom: 30px;
   /* display: flex;
   justify-content: space-between; */
 }
@@ -387,6 +387,11 @@ footer .social-links a {
 }
 .project-info {
   padding: 50px;
+}
+
+.skills-learned ul {
+  font-weight: 200;
+  font-size: calc(13px + 0.5vw);
 }
 
 @media only screen and (max-width: 767px) {

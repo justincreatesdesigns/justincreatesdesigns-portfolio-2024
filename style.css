@@ -325,6 +325,7 @@ footer .social-links a {
 
 #projects video {
   width: 100%;
+  object-fit: none;
 }
 
 .about-title h1 {

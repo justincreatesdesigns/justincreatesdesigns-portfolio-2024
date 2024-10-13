@@ -21,7 +21,7 @@ a:hover,
 #link > *:hover,
 .about-a a:hover {
   transition: 0.3s;
-  color: #ffb800;
+  color: #ffc107;
 }
 
 section {

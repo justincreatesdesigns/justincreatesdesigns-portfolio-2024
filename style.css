@@ -239,7 +239,8 @@ p {
   height: fit-content;
 } */
 
-.portfolio img:hover {
+.portfolio img:hover,
+.portfolio video:hover {
   filter: brightness(70%);
   transition: 0.3s;
 }

@@ -213,7 +213,9 @@ p {
 
 .portfolio img,
 .portfolio video {
+  height: 600px;
   width: 100%;
+  object-fit: cover;
   /* height: 250px;
   min-height: 240px;
   max-height: 400px; */
@@ -324,10 +326,13 @@ footer .social-links a {
   background-color: #062d28;
 }
 
+<<<<<<< Updated upstream
 #projects video {
   width: 100%;
 }
 
+=======
+>>>>>>> Stashed changes
 .about-title h1 {
   margin: 20px 0;
 }

@@ -213,7 +213,9 @@ p {
 
 .portfolio img,
 .portfolio video {
+  height: 600px;
   width: 100%;
+  object-fit: cover;
   /* height: 250px;
   min-height: 240px;
   max-height: 400px; */
@@ -324,11 +326,11 @@ footer .social-links a {
   background-color: #062d28;
 }
 
-#projects video {
+<<<<<<< Updated upstream #projects video {
   width: 100%;
 }
 
-.about-title h1 {
+=======>>>>>>>Stashed changes .about-title h1 {
   margin: 20px 0;
 }
 
@@ -430,12 +432,16 @@ footer .social-links a {
     padding: 42px;
   }
 
-  /* 
   .portfolio img,
-  .blog img {
-    height: 240px;
-  } */
-
+  .portfolio video {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    /* height: 250px;
+  min-height: 240px;
+  max-height: 400px; */
+    transition: height 0.3s ease;
+  }
   .project-details {
     margin-bottom: 50px;
   }

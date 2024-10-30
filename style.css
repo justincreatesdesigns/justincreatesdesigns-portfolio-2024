@@ -152,7 +152,7 @@ a.nav-link {
 
 h1 {
   font-weight: bold;
-  font-size: calc(45px + 3vw); /* Adjust based on viewport width */
+  font-size: calc(50px + 3vw); /* Adjust based on viewport width */
   margin-bottom: 30px;
 }
 
@@ -326,14 +326,6 @@ footer .social-links a {
   background-color: #062d28;
 }
 
-<<<<<<< Updated upstream #projects video {
-  width: 100%;
-}
-
-=======>>>>>>>Stashed changes .about-title h1 {
-  margin: 20px 0;
-}
-
 .carousel-item img {
   width: 100%;
 }
@@ -397,6 +389,15 @@ footer .social-links a {
   font-size: calc(13px + 0.5vw);
 }
 
+/* Contact */
+
+.contact-card a {
+  color: black;
+}
+
+.contact-card-row-1 {
+  height: 819px;
+}
 @media only screen and (max-width: 767px) {
   /* Intro */
   .breadcrumbs {

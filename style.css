@@ -469,6 +469,12 @@ footer .social-links a {
     padding: 0px;
   } */
 
+  /* Contact */
+
+  .contact-card-row-1 {
+    height: 400px;
+  }
+
   /* Footer */
 
   #social-links-1,

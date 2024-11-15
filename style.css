@@ -226,8 +226,13 @@ p {
   font-weight: 600;
 }
 
-.portfolio-desc {
+.portfolio-details {
   padding: 50px 12px;
+}
+
+.portfolio-desc {
+  padding-top: 10px;
+  padding-bottom: 30px;
   /* margin-bottom: 30px; */
   /* display: flex;
   justify-content: space-between; */

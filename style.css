@@ -227,8 +227,8 @@ p {
 }
 
 .portfolio-desc {
-  padding: 10px 0;
-  margin-bottom: 30px;
+  padding: 50px 12px;
+  /* margin-bottom: 30px; */
   /* display: flex;
   justify-content: space-between; */
 }
@@ -415,11 +415,6 @@ footer .social-links a {
 
   .portfolio {
     text-align: left;
-  }
-
-  .portfolio-desc {
-    margin-bottom: 20px;
-    flex-direction: column;
   }
 
   .project-details-others h3,

@@ -432,10 +432,10 @@ footer .social-links a {
     width: 100%;
     transition: width 0.3s ease;
   }
-
+  /* 
   .portfolio-imgs p {
     padding: 42px;
-  }
+  } */
 
   .portfolio img,
   .portfolio video {

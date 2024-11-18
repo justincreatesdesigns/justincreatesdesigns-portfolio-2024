@@ -230,6 +230,10 @@ p {
   padding: 50px 12px;
 }
 
+.portfolio-details h3 {
+  padding-bottom: 12px;
+}
+
 .portfolio-desc {
   padding-top: 10px;
   padding-bottom: 30px;

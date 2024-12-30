@@ -481,6 +481,9 @@ footer .social-links a {
   } */
 
   /* Contact */
+  .about-details div {
+    margin: 10px 0px;
+  }
 
   .contact-card-row-1 {
     height: 400px;
